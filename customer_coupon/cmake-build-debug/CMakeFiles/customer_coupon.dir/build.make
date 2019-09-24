@@ -43,10 +43,10 @@ RM = /home/ozcanay/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ozcanay/CLionProjects/customer_coupon
+CMAKE_SOURCE_DIR = /home/ozcanay/Desktop/low_level_system_design/customer_coupon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/customer_coupon.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/customer_coupon.dir/flags.make
 
 CMakeFiles/customer_coupon.dir/main.cpp.o: CMakeFiles/customer_coupon.dir/flags.make
 CMakeFiles/customer_coupon.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/customer_coupon.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/customer_coupon.dir/main.cpp.o -c /home/ozcanay/CLionProjects/customer_coupon/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/customer_coupon.dir/main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/customer_coupon.dir/main.cpp.o -c /home/ozcanay/Desktop/low_level_system_design/customer_coupon/main.cpp
 
 CMakeFiles/customer_coupon.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/customer_coupon.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ozcanay/CLionProjects/customer_coupon/main.cpp > CMakeFiles/customer_coupon.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ozcanay/Desktop/low_level_system_design/customer_coupon/main.cpp > CMakeFiles/customer_coupon.dir/main.cpp.i
 
 CMakeFiles/customer_coupon.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/customer_coupon.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ozcanay/CLionProjects/customer_coupon/main.cpp -o CMakeFiles/customer_coupon.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ozcanay/Desktop/low_level_system_design/customer_coupon/main.cpp -o CMakeFiles/customer_coupon.dir/main.cpp.s
 
 CMakeFiles/customer_coupon.dir/Customer.cpp.o: CMakeFiles/customer_coupon.dir/flags.make
 CMakeFiles/customer_coupon.dir/Customer.cpp.o: ../Customer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/customer_coupon.dir/Customer.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/customer_coupon.dir/Customer.cpp.o -c /home/ozcanay/CLionProjects/customer_coupon/Customer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/customer_coupon.dir/Customer.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/customer_coupon.dir/Customer.cpp.o -c /home/ozcanay/Desktop/low_level_system_design/customer_coupon/Customer.cpp
 
 CMakeFiles/customer_coupon.dir/Customer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/customer_coupon.dir/Customer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ozcanay/CLionProjects/customer_coupon/Customer.cpp > CMakeFiles/customer_coupon.dir/Customer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ozcanay/Desktop/low_level_system_design/customer_coupon/Customer.cpp > CMakeFiles/customer_coupon.dir/Customer.cpp.i
 
 CMakeFiles/customer_coupon.dir/Customer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/customer_coupon.dir/Customer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ozcanay/CLionProjects/customer_coupon/Customer.cpp -o CMakeFiles/customer_coupon.dir/Customer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ozcanay/Desktop/low_level_system_design/customer_coupon/Customer.cpp -o CMakeFiles/customer_coupon.dir/Customer.cpp.s
 
 # Object files for target customer_coupon
 customer_coupon_OBJECTS = \
@@ -95,7 +95,7 @@ customer_coupon: CMakeFiles/customer_coupon.dir/main.cpp.o
 customer_coupon: CMakeFiles/customer_coupon.dir/Customer.cpp.o
 customer_coupon: CMakeFiles/customer_coupon.dir/build.make
 customer_coupon: CMakeFiles/customer_coupon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable customer_coupon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable customer_coupon"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/customer_coupon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/customer_coupon.dir/clean:
 .PHONY : CMakeFiles/customer_coupon.dir/clean
 
 CMakeFiles/customer_coupon.dir/depend:
-	cd /home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ozcanay/CLionProjects/customer_coupon /home/ozcanay/CLionProjects/customer_coupon /home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug /home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug /home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles/customer_coupon.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ozcanay/Desktop/low_level_system_design/customer_coupon /home/ozcanay/Desktop/low_level_system_design/customer_coupon /home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug /home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug /home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug/CMakeFiles/customer_coupon.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/customer_coupon.dir/depend
 

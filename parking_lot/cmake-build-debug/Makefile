@@ -285,6 +285,33 @@ src/ParkingLot.cpp.s:
 	$(MAKE) -f CMakeFiles/parking_lot.dir/build.make CMakeFiles/parking_lot.dir/src/ParkingLot.cpp.s
 .PHONY : src/ParkingLot.cpp.s
 
+src/ParkingSpot.o: src/ParkingSpot.cpp.o
+
+.PHONY : src/ParkingSpot.o
+
+# target to build an object file
+src/ParkingSpot.cpp.o:
+	$(MAKE) -f CMakeFiles/parking_lot.dir/build.make CMakeFiles/parking_lot.dir/src/ParkingSpot.cpp.o
+.PHONY : src/ParkingSpot.cpp.o
+
+src/ParkingSpot.i: src/ParkingSpot.cpp.i
+
+.PHONY : src/ParkingSpot.i
+
+# target to preprocess a source file
+src/ParkingSpot.cpp.i:
+	$(MAKE) -f CMakeFiles/parking_lot.dir/build.make CMakeFiles/parking_lot.dir/src/ParkingSpot.cpp.i
+.PHONY : src/ParkingSpot.cpp.i
+
+src/ParkingSpot.s: src/ParkingSpot.cpp.s
+
+.PHONY : src/ParkingSpot.s
+
+# target to generate assembly for a file
+src/ParkingSpot.cpp.s:
+	$(MAKE) -f CMakeFiles/parking_lot.dir/build.make CMakeFiles/parking_lot.dir/src/ParkingSpot.cpp.s
+.PHONY : src/ParkingSpot.cpp.s
+
 src/Truck.o: src/Truck.cpp.o
 
 .PHONY : src/Truck.o
@@ -339,6 +366,9 @@ help:
 	@echo "... src/ParkingLot.o"
 	@echo "... src/ParkingLot.i"
 	@echo "... src/ParkingLot.s"
+	@echo "... src/ParkingSpot.o"
+	@echo "... src/ParkingSpot.i"
+	@echo "... src/ParkingSpot.s"
 	@echo "... src/Truck.o"
 	@echo "... src/Truck.i"
 	@echo "... src/Truck.s"

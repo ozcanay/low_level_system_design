@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ozcanay/Desktop/low_level_system_design/parking_lot/src/Minibus.cpp" "/home/ozcanay/Desktop/low_level_system_design/parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Minibus.cpp.o"
   "/home/ozcanay/Desktop/low_level_system_design/parking_lot/src/Motorcycle.cpp" "/home/ozcanay/Desktop/low_level_system_design/parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Motorcycle.cpp.o"
   "/home/ozcanay/Desktop/low_level_system_design/parking_lot/src/ParkingLot.cpp" "/home/ozcanay/Desktop/low_level_system_design/parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/ParkingLot.cpp.o"
+  "/home/ozcanay/Desktop/low_level_system_design/parking_lot/src/ParkingSpot.cpp" "/home/ozcanay/Desktop/low_level_system_design/parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/ParkingSpot.cpp.o"
   "/home/ozcanay/Desktop/low_level_system_design/parking_lot/src/Truck.cpp" "/home/ozcanay/Desktop/low_level_system_design/parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Truck.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

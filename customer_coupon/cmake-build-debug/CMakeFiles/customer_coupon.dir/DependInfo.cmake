@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ozcanay/CLionProjects/customer_coupon/Customer.cpp" "/home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles/customer_coupon.dir/Customer.cpp.o"
-  "/home/ozcanay/CLionProjects/customer_coupon/main.cpp" "/home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles/customer_coupon.dir/main.cpp.o"
+  "/home/ozcanay/Desktop/low_level_system_design/customer_coupon/Customer.cpp" "/home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug/CMakeFiles/customer_coupon.dir/Customer.cpp.o"
+  "/home/ozcanay/Desktop/low_level_system_design/customer_coupon/main.cpp" "/home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug/CMakeFiles/customer_coupon.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

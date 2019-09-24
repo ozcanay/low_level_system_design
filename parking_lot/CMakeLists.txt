@@ -10,7 +10,8 @@ set(SOURCES
         src/Minibus.cpp
         src/Motorcycle.cpp
         src/Car.cpp
-        src/ParkingLot.cpp)
+        src/ParkingLot.cpp
+        src/ParkingSpot.cpp)
 
 add_executable(parking_lot ${SOURCES})
 

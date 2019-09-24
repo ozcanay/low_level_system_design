@@ -8,6 +8,7 @@
 #include "Minibus.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    auto* parkingLot = new Building::ParkingLot(10, 20);
+
+
 }

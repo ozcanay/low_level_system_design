@@ -104,6 +104,9 @@
 		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/parking_lot/src/ParkingLot.cpp">
 			<Option target="parking_lot"/>
 		</Unit>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/parking_lot/src/ParkingSpot.cpp">
+			<Option target="parking_lot"/>
+		</Unit>
 		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/parking_lot/src/Truck.cpp">
 			<Option target="parking_lot"/>
 		</Unit>

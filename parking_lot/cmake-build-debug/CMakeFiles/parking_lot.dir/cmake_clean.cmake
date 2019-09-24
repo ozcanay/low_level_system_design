@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/parking_lot.dir/src/Motorcycle.cpp.o"
   "CMakeFiles/parking_lot.dir/src/Car.cpp.o"
   "CMakeFiles/parking_lot.dir/src/ParkingLot.cpp.o"
+  "CMakeFiles/parking_lot.dir/src/ParkingSpot.cpp.o"
   "parking_lot.pdb"
   "parking_lot"
 )

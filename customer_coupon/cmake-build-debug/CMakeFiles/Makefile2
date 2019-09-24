@@ -59,10 +59,10 @@ RM = /home/ozcanay/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ozcanay/CLionProjects/customer_coupon
+CMAKE_SOURCE_DIR = /home/ozcanay/Desktop/low_level_system_design/customer_coupon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/customer_coupon.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug
 CMakeFiles/customer_coupon.dir/all:
 	$(MAKE) -f CMakeFiles/customer_coupon.dir/build.make CMakeFiles/customer_coupon.dir/depend
 	$(MAKE) -f CMakeFiles/customer_coupon.dir/build.make CMakeFiles/customer_coupon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target customer_coupon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target customer_coupon"
 .PHONY : CMakeFiles/customer_coupon.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/customer_coupon.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/customer_coupon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/customer_coupon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/customer_coupon.dir/rule
 
 # Convenience name for target.

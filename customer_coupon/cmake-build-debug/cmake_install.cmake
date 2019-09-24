@@ -1,4 +1,4 @@
-# Install script for directory: /home/ozcanay/CLionProjects/customer_coupon
+# Install script for directory: /home/ozcanay/Desktop/low_level_system_design/customer_coupon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ozcanay/Desktop/low_level_system_design/customer_coupon/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
