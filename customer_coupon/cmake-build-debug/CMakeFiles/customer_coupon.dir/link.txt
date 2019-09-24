@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/customer_coupon.dir/main.cpp.o CMakeFiles/customer_coupon.dir/Customer.cpp.o  -o customer_coupon 

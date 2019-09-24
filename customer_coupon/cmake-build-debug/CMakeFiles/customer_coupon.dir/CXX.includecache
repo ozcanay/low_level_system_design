@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ozcanay/CLionProjects/customer_coupon/Customer.cpp
+Customer.h
+/home/ozcanay/CLionProjects/customer_coupon/Customer.h
+
+/home/ozcanay/CLionProjects/customer_coupon/Customer.h
+iostream
+-
+string
+-
+map
+-
+unordered_set
+-
+

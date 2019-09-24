@@ -1,0 +1,3 @@
+/home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles/customer_coupon.dir
+/home/ozcanay/CLionProjects/customer_coupon/cmake-build-debug/CMakeFiles/edit_cache.dir
