@@ -1,18 +1,22 @@
 #ifndef PARKING_LOT_PARKINGSPOT_H
 #define PARKING_LOT_PARKINGSPOT_H
 
+enum class SpotSize {
+        SMALL,
+        MEDIUM,
+        LARGE
+};
+
 namespace Building {
     class ParkingSpot {
         public:
-            explicit ParkingSpot(int w, int l) : width(w), length(l) {}
-
-            inline int getArea() {
-                return width * length;
-            }
-
+            explicit ParkingSpot(SpotSize size);
+            SpotSize getSize();
+            int getLevel() const;
+            void setLevel(int level);
         private:
-            int width;
-            int length;
+            SpotSize _size;
+            int _level;
     };
 }
 

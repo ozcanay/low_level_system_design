@@ -7,6 +7,7 @@ CMakeFiles/parking_lot.dir/main.cpp.o
  ../include/Minibus.h
  ../include/Motorcycle.h
  ../include/ParkingLot.h
+ ../include/ParkingSpot.h
  ../include/Truck.h
  ../include/Vehicle.h
  /home/ozcanay/Desktop/low_level_system_design/parking_lot/main.cpp
@@ -28,7 +29,11 @@ CMakeFiles/parking_lot.dir/src/Motorcycle.cpp.o
  /home/ozcanay/Desktop/low_level_system_design/parking_lot/src/Motorcycle.cpp
 CMakeFiles/parking_lot.dir/src/ParkingLot.cpp.o
  ../include/ParkingLot.h
+ ../include/ParkingSpot.h
  /home/ozcanay/Desktop/low_level_system_design/parking_lot/src/ParkingLot.cpp
+CMakeFiles/parking_lot.dir/src/ParkingSpot.cpp.o
+ ../include/ParkingSpot.h
+ /home/ozcanay/Desktop/low_level_system_design/parking_lot/src/ParkingSpot.cpp
 CMakeFiles/parking_lot.dir/src/Truck.cpp.o
  ../include/Truck.h
  ../include/Vehicle.h

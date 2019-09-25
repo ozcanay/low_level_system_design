@@ -2,16 +2,21 @@
 #define PARKING_LOT_PARKINGLOT_H
 
 #include <unordered_map>
+#include <unordered_set>
 #include "ParkingSpot.h"
 
 namespace Building {
     class ParkingLot {
         public:
-            ParkingLot() = default;
-            void addParkingSpot(ParkingSpot spot, int count);
+            explicit ParkingLot(int level);
+            void addParkingSpot(SpotSize size, int count);
+            void removeParkingSpot(SpotSize size, int count);
+            int getTotalSpots() const;
+            void printSpotInfo() const;
 
         private:
-            std::unordered_map<ParkingSpot, int> spotInfo;
+            int _level{0};
+            std::unordered_set<Building::ParkingSpot*> parkingSpots{};
     };
 }
 

@@ -6,6 +6,7 @@ CMakeFiles/parking_lot.dir/main.cpp.o: ../include/Car.h
 CMakeFiles/parking_lot.dir/main.cpp.o: ../include/Minibus.h
 CMakeFiles/parking_lot.dir/main.cpp.o: ../include/Motorcycle.h
 CMakeFiles/parking_lot.dir/main.cpp.o: ../include/ParkingLot.h
+CMakeFiles/parking_lot.dir/main.cpp.o: ../include/ParkingSpot.h
 CMakeFiles/parking_lot.dir/main.cpp.o: ../include/Truck.h
 CMakeFiles/parking_lot.dir/main.cpp.o: ../include/Vehicle.h
 CMakeFiles/parking_lot.dir/main.cpp.o: ../main.cpp
@@ -27,7 +28,11 @@ CMakeFiles/parking_lot.dir/src/Motorcycle.cpp.o: ../include/Vehicle.h
 CMakeFiles/parking_lot.dir/src/Motorcycle.cpp.o: ../src/Motorcycle.cpp
 
 CMakeFiles/parking_lot.dir/src/ParkingLot.cpp.o: ../include/ParkingLot.h
+CMakeFiles/parking_lot.dir/src/ParkingLot.cpp.o: ../include/ParkingSpot.h
 CMakeFiles/parking_lot.dir/src/ParkingLot.cpp.o: ../src/ParkingLot.cpp
+
+CMakeFiles/parking_lot.dir/src/ParkingSpot.cpp.o: ../include/ParkingSpot.h
+CMakeFiles/parking_lot.dir/src/ParkingSpot.cpp.o: ../src/ParkingSpot.cpp
 
 CMakeFiles/parking_lot.dir/src/Truck.cpp.o: ../include/Truck.h
 CMakeFiles/parking_lot.dir/src/Truck.cpp.o: ../include/Vehicle.h
