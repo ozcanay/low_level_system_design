@@ -1,14 +1,10 @@
-//
-// Created by ozcanay on 9/29/19.
-//
-
 #include "MobileBilling.h"
 
-std::vector<Customer*> MobileBilling::queryPostpaidCustomers() {
+std::unordered_set<Customer*> MobileBilling::queryPostpaidCustomers() {
     return postpaidCustomers_;
 }
 
-std::vector<Customer*> MobileBilling::queryPrepaidCustomers() {
+std::unordered_set<Customer*> MobileBilling::queryPrepaidCustomers() {
     return prepaidCustomers_;
 }
 
@@ -25,15 +21,27 @@ double MobileBilling::averagePostpaidBalance() {
 void MobileBilling::addCustomer(Customer* customer) {
     if(typeid(PrepaidCustomer) == typeid(*customer)) {
         std::cout << "Prepaid customer is being added to the mobile billing with an ID of " << customer->getId() << " and a phone number of " << customer->getPhoneNumber() << "."  << std::endl;
-        prepaidCustomers_.push_back(customer);
+        prepaidCustomers_.insert(customer);
+        prepaidCustomerIds_.insert(customer->getId());
     } else if(typeid(PostpaidCustomer) == typeid(*customer)) {
-        std::cout << "Postpaid customer is being added to the mobile billing." << std::endl;
-        postpaidCustomers_.push_back(customer);
+        std::cout << "Postpaid customer is being added to the mobile billing with an ID of " << customer->getId() << " and a phone number of " << customer->getPhoneNumber() << "."  << std::endl;
+        postpaidCustomers_.insert(customer);
+        postpaidCustomerIds_.insert(customer->getId());
     }
+
+    phoneNumbers_.insert(customer->getPhoneNumber());
 }
 
-void MobileBilling::deleteCustomer() {
-
+void MobileBilling::deleteCustomer(Customer* customer) {
+    if(typeid(PrepaidCustomer) == typeid(*customer)) {
+        std::cout << "Prepaid customer is being deleted from the mobile billing with an ID of " << customer->getId() << " and a phone number of " << customer->getPhoneNumber() << "."  << std::endl;
+        prepaidCustomers_.erase(customer);
+        prepaidCustomerIds_.erase(customer->getId());
+    } else if(typeid(PostpaidCustomer) == typeid(*customer)) {
+        std::cout << "Postpaid customer is being deleted from the mobile billing with an ID of " << customer->getId() << " and a phone number of " << customer->getPhoneNumber() << "."  << std::endl;
+        postpaidCustomers_.erase(customer);
+        postpaidCustomerIds_.erase(customer->getId());
+    }
 }
 
 Customer *MobileBilling::searchById(int id) {
@@ -72,4 +80,31 @@ double MobileBilling::getAveragePrepaidCallDuration(const PrepaidCustomer &prepa
 
 double MobileBilling::averagePrepaidBalance() {
     return 0;
+}
+
+void MobileBilling::displayPrepaidCustomers() {
+    std::cout << "Prepaid Customer Info: " << std::endl;
+    std::cout << "-----------------------" << std::endl << std::endl;
+
+    for(auto prepaidCustomer : prepaidCustomers_) {
+        std::cout << prepaidCustomer->getId() << " " << prepaidCustomer->getPhoneNumber() << std::endl;
+    }
+
+    std::cout << std::endl;
+}
+
+void MobileBilling::displayPostpaidCustomers() {
+    std::cout << "Postpaid Customer Info: " << std::endl;
+    std::cout << "-----------------------" << std::endl << std::endl;
+
+    for(auto postpaidCustomer : postpaidCustomers_) {
+        std::cout << postpaidCustomer->getId() << " " << postpaidCustomer->getPhoneNumber() << std::endl;
+    }
+
+    std::cout << std::endl;
+}
+
+void MobileBilling::displayCustomers() {
+    displayPostpaidCustomers();
+    displayPrepaidCustomers();
 }

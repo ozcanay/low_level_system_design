@@ -14,7 +14,7 @@ class Customer {
     private:
         int id_;
         int phone_number_;
-        std::string name_{};
+        std::string name_{"unknown name"};
         double call_duration_{};
     protected:
         double balance_{};
