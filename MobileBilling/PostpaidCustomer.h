@@ -5,11 +5,14 @@
 
 class PostpaidCustomer : public Customer {
     public:
-        explicit PostpaidCustomer(int id) : Customer(id) {}
+        explicit PostpaidCustomer(int id, int phone_number) : Customer(id, phone_number) {}
+        void credit(double amount) override;
     private:
+        void billPay();
 
 
 };
 
-
 #endif //MOBILEBILLING_POSTPAIDCUSTOMER_H
+
+

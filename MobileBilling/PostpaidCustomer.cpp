@@ -3,3 +3,11 @@
 //
 
 #include "PostpaidCustomer.h"
+
+void PostpaidCustomer::billPay() {
+
+}
+
+void PostpaidCustomer::credit(double amount) {
+
+}

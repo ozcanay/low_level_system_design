@@ -5,8 +5,15 @@
 
 class PrepaidCustomer : public Customer {
     public:
-        explicit PrepaidCustomer(int id) : Customer(id) {}
+        explicit PrepaidCustomer(int id, int phone_number) : Customer(id, phone_number) {}
+        void credit(double amount) override {
+            recharge(amount);
+        }
+
     private:
+        void recharge(double amount) {
+            balance_ += amount;
+        }
 
 };
 

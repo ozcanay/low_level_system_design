@@ -4,6 +4,12 @@
 CMakeFiles/MobileBilling.dir/Customer.cpp.o: ../Customer.cpp
 CMakeFiles/MobileBilling.dir/Customer.cpp.o: ../Customer.h
 
+CMakeFiles/MobileBilling.dir/MobileBilling.cpp.o: ../Customer.h
+CMakeFiles/MobileBilling.dir/MobileBilling.cpp.o: ../MobileBilling.cpp
+CMakeFiles/MobileBilling.dir/MobileBilling.cpp.o: ../MobileBilling.h
+CMakeFiles/MobileBilling.dir/MobileBilling.cpp.o: ../PostpaidCustomer.h
+CMakeFiles/MobileBilling.dir/MobileBilling.cpp.o: ../PrepaidCustomer.h
+
 CMakeFiles/MobileBilling.dir/PostpaidCustomer.cpp.o: ../Customer.h
 CMakeFiles/MobileBilling.dir/PostpaidCustomer.cpp.o: ../PostpaidCustomer.cpp
 CMakeFiles/MobileBilling.dir/PostpaidCustomer.cpp.o: ../PostpaidCustomer.h
@@ -13,5 +19,8 @@ CMakeFiles/MobileBilling.dir/PrepaidCustomer.cpp.o: ../PrepaidCustomer.cpp
 CMakeFiles/MobileBilling.dir/PrepaidCustomer.cpp.o: ../PrepaidCustomer.h
 
 CMakeFiles/MobileBilling.dir/main.cpp.o: ../Customer.h
+CMakeFiles/MobileBilling.dir/main.cpp.o: ../MobileBilling.h
+CMakeFiles/MobileBilling.dir/main.cpp.o: ../PostpaidCustomer.h
+CMakeFiles/MobileBilling.dir/main.cpp.o: ../PrepaidCustomer.h
 CMakeFiles/MobileBilling.dir/main.cpp.o: ../main.cpp
 

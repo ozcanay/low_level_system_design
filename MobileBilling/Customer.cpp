@@ -1,9 +1,14 @@
 #include "Customer.h"
 
 double Customer::enquireBalance() {
-    return balance;
+    return balance_;
 }
 
-Customer::Customer(int id) {
-    id_ = id;
+int Customer::getId() {
+    return id_;
 }
+
+int Customer::getPhoneNumber() {
+    return phone_number_;
+}
+
