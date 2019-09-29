@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/MobileBilling.dir/main.cpp.o CMakeFiles/MobileBilling.dir/Customer.cpp.o CMakeFiles/MobileBilling.dir/PrepaidCustomer.cpp.o CMakeFiles/MobileBilling.dir/PostpaidCustomer.cpp.o CMakeFiles/MobileBilling.dir/MobileBilling.cpp.o  -o MobileBilling 

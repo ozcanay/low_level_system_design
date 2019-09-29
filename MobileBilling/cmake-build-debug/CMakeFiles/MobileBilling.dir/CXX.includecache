@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/Customer.cpp
+Customer.h
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/Customer.h
+
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/Customer.h
+string
+-
+
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/PostpaidCustomer.cpp
+PostpaidCustomer.h
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/PostpaidCustomer.h
+
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/PostpaidCustomer.h
+Customer.h
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/Customer.h
+
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/PrepaidCustomer.cpp
+PrepaidCustomer.h
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/PrepaidCustomer.h
+
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/PrepaidCustomer.h
+Customer.h
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/Customer.h
+
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/main.cpp
+iostream
+-
+Customer.h
+/home/ozcanay/Desktop/low_level_system_design/MobileBilling/Customer.h
+
