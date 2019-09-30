@@ -5,11 +5,10 @@
 
 class PostpaidCustomer : public Customer {
     public:
-        explicit PostpaidCustomer(int id, int phone_number) : Customer(id, phone_number) {}
+        explicit PostpaidCustomer(int id, int phone_number, std::string name) : Customer(id, phone_number, std::move(name)) {}
         void credit(double amount) override;
     private:
         void billPay(double amount);
-
 
 };
 

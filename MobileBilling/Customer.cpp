@@ -12,3 +12,7 @@ int Customer::getPhoneNumber() {
     return phone_number_;
 }
 
+std::string Customer::getName() {
+    return name_;
+}
+

@@ -5,7 +5,7 @@
 
 class PrepaidCustomer : public Customer {
     public:
-        explicit PrepaidCustomer(int id, int phone_number) : Customer(id, phone_number) {}
+        explicit PrepaidCustomer(int id, int phone_number, std::string name) : Customer(id, phone_number, std::move(name)) {}
         void credit(double amount) override;
 
     private:
