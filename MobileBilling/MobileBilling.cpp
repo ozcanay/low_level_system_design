@@ -87,12 +87,24 @@ Customer* MobileBilling::searchByNumber(int phone_number) {
     return result;
 }
 
-double MobileBilling::getAveragePostpaidCallDuration(const PostpaidCustomer &postpaidCustomer) {
-    return 0;
+double MobileBilling::getAveragePostpaidCallDuration() {
+    double sum{0.0};
+
+    for(auto postpaidCustomer : postpaidCustomers_) {
+        sum += postpaidCustomer->getCallDuration();
+    }
+
+    return sum / postpaidCustomers_.size();
 }
 
-double MobileBilling::getAveragePrepaidCallDuration(const PrepaidCustomer &prepaidCustomer) {
-    return 0;
+double MobileBilling::getAveragePrepaidCallDuration() {
+    double sum{0.0};
+
+    for(auto prepaidCustomer : prepaidCustomers_) {
+        sum += prepaidCustomer->getCallDuration();
+    }
+
+    return sum / prepaidCustomers_.size();
 }
 
 double MobileBilling::averagePrepaidBalance() {

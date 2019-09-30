@@ -16,3 +16,7 @@ std::string Customer::getName() {
     return name_;
 }
 
+double Customer::getCallDuration() {
+    return call_duration_;
+}
+

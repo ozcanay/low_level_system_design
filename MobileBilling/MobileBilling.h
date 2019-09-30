@@ -20,11 +20,11 @@ class MobileBilling {
         std::vector<Customer*> searchByName(const std::string& name);
         Customer* searchByNumber(int phone_number);
 
-        double getAveragePostpaidCallDuration(const PostpaidCustomer& postpaidCustomer);
+        double getAveragePostpaidCallDuration();
         std::unordered_set<Customer*> queryPostpaidCustomers();
         double averagePostpaidBalance();
 
-        double getAveragePrepaidCallDuration(const PrepaidCustomer& prepaidCustomer);
+        double getAveragePrepaidCallDuration();
         std::unordered_set<Customer*> queryPrepaidCustomers();
         double averagePrepaidBalance();
 

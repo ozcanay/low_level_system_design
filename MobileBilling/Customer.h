@@ -11,6 +11,7 @@ class Customer {
         int getId();
         int getPhoneNumber();
         std::string getName();
+        double getCallDuration();
 
     private:
         int id_;
