@@ -19,11 +19,11 @@ double MobileBilling::averagePostpaidBalance() {
 }
 
 void MobileBilling::addCustomer(Customer* customer) {
-    if(typeid(PrepaidCustomer) == typeid(*customer)) {
+    if(typeid(PrepaidCustomer).name() == typeid(*customer).name()) {
         std::cout << "Prepaid customer is being added to the mobile billing with an ID of " << customer->getId() << " and a phone number of " << customer->getPhoneNumber() << "."  << std::endl;
         prepaidCustomers_.insert(customer);
         prepaidCustomerIds_.insert(customer->getId());
-    } else if(typeid(PostpaidCustomer) == typeid(*customer)) {
+    } else if(typeid(PostpaidCustomer).name() == typeid(*customer).name()) {
         std::cout << "Postpaid customer is being added to the mobile billing with an ID of " << customer->getId() << " and a phone number of " << customer->getPhoneNumber() << "."  << std::endl;
         postpaidCustomers_.insert(customer);
         postpaidCustomerIds_.insert(customer->getId());
@@ -84,7 +84,7 @@ double MobileBilling::averagePrepaidBalance() {
 
 void MobileBilling::displayPrepaidCustomers() {
     std::cout << "Prepaid Customer Info: " << std::endl;
-    std::cout << "-----------------------" << std::endl << std::endl;
+    std::cout << "-----------------------" << std::endl;
 
     for(auto prepaidCustomer : prepaidCustomers_) {
         std::cout << prepaidCustomer->getId() << " " << prepaidCustomer->getPhoneNumber() << std::endl;
@@ -95,7 +95,7 @@ void MobileBilling::displayPrepaidCustomers() {
 
 void MobileBilling::displayPostpaidCustomers() {
     std::cout << "Postpaid Customer Info: " << std::endl;
-    std::cout << "-----------------------" << std::endl << std::endl;
+    std::cout << "-----------------------" << std::endl;
 
     for(auto postpaidCustomer : postpaidCustomers_) {
         std::cout << postpaidCustomer->getId() << " " << postpaidCustomer->getPhoneNumber() << std::endl;

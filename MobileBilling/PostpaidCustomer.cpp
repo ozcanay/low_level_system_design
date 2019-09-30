@@ -4,10 +4,10 @@
 
 #include "PostpaidCustomer.h"
 
-void PostpaidCustomer::billPay() {
-
+void PostpaidCustomer::billPay(double amount) {
+    balance_ += amount;
 }
 
 void PostpaidCustomer::credit(double amount) {
-
+    billPay(amount);
 }

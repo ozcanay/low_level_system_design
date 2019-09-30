@@ -8,7 +8,7 @@ class PostpaidCustomer : public Customer {
         explicit PostpaidCustomer(int id, int phone_number) : Customer(id, phone_number) {}
         void credit(double amount) override;
     private:
-        void billPay();
+        void billPay(double amount);
 
 
 };
