@@ -43,7 +43,6 @@ class MobileBilling {
         std::unordered_set<int> prepaidCustomerIds_;
         std::unordered_set<int> postpaidCustomerIds_;
         std::unordered_set<int> phoneNumbers_;
-        // std::unordered_map<std::string>;
 };
 
 

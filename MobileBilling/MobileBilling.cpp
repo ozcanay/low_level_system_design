@@ -67,14 +67,30 @@ void MobileBilling::deleteCustomer(Customer* customer) {
 }
 
 std::vector<Customer*> MobileBilling::searchById(int id) {
-/*    if(id_to_customer_map_.find(id) != id_to_customer_map_.end()) {
+    std::vector<Customer*> result{};
 
-    }*/
-    return {};
+    auto prepaid_it = id_to_prepaidcustomer_map_.find(id);
+    if(prepaid_it != id_to_prepaidcustomer_map_.end()) {
+        result.push_back(prepaid_it->second);
+    }
+
+    auto postpaid_it = id_to_postpaidcustomer_map_.find(id);
+    if(postpaid_it != id_to_postpaidcustomer_map_.end()) {
+        result.push_back(postpaid_it->second);
+    }
+
+    return result;
 }
 
 std::vector<Customer*> MobileBilling::searchByName(const std::string& name) {
-    return {};
+    std::vector<Customer*> result{};
+
+    auto range = name_to_customer_map_.equal_range(name);
+    for(auto it = range.first; it != range.second; ++it) { // NOT it < range.second!
+        result.push_back(it->second);
+    }
+
+    return result;
 }
 
 Customer* MobileBilling::searchByNumber(int phone_number) {
@@ -108,7 +124,13 @@ double MobileBilling::getAveragePrepaidCallDuration() {
 }
 
 double MobileBilling::averagePrepaidBalance() {
-    return 0;
+    double sum{0.0};
+
+    for(auto prepaidCustomer : prepaidCustomers_) {
+        sum += prepaidCustomer->enquireBalance();
+    }
+
+    return sum / prepaidCustomers_.size();
 }
 
 void MobileBilling::displayPrepaidCustomers() {
