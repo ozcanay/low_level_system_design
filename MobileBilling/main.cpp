@@ -8,8 +8,9 @@ int main() {
     auto* mobileBilling = new MobileBilling;
     Customer* postPaidCustomer = new PostpaidCustomer(1, 123, "Aydin"); // UNIQUE PTR NEDEN CALISMADI? .GET() -> SEGFAULT VERDI
     // postPaidCustomer->call(10.3);
-    Customer* prePaidCustomer  = new PrepaidCustomer(4, 126, "Gozde");
     postPaidCustomer->credit(10.7);
+    Customer* prePaidCustomer  = new PrepaidCustomer(4, 126, "Gozde");
+
     std::cout << postPaidCustomer->enquireBalance() << std::endl;
 
     mobileBilling->addCustomer(prePaidCustomer);
@@ -55,6 +56,8 @@ int main() {
 
     postPaidCustomer->call(1000);
     std::cout << postPaidCustomer->enquireBalance() << std::endl;
+
+    std::cout << mobileBilling->averagePostpaidBalance() << std::endl;
 
 
 }
