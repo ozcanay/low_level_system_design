@@ -2,6 +2,7 @@
 #define MOBILEBILLING_CUSTOMER_H
 
 #include <string>
+#include <iostream>
 
 class Customer {
     public:
@@ -11,15 +12,16 @@ class Customer {
         int getId();
         int getPhoneNumber();
         std::string getName();
+        void call(double duration);
         double getCallDuration();
 
     private:
         int id_;
         int phone_number_;
-        std::string name_{"unknown name"};
+        std::string name_;
         double call_duration_{0.0};
     protected:
-        double balance_{0.0};
+        double balance_{10.0};
 };
 
 

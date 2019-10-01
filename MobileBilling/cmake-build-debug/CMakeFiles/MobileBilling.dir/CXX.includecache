@@ -9,10 +9,8 @@
 /home/ozcanay/Desktop/low_level_system_design/MobileBilling/Customer.h
 string
 -
-
-/home/ozcanay/Desktop/low_level_system_design/MobileBilling/MobileBilling.cpp
-MobileBilling.h
-/home/ozcanay/Desktop/low_level_system_design/MobileBilling/MobileBilling.h
+iostream
+-
 
 /home/ozcanay/Desktop/low_level_system_design/MobileBilling/MobileBilling.h
 iostream
