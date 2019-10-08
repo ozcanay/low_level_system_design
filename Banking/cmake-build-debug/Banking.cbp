@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Banking"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Banking">
+				<Option output="/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Banking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 Banking"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Banking/fast">
+				<Option output="/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Banking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 Banking/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/Banking/Bank.cpp">
+			<Option target="Banking"/>
+		</Unit>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/Banking/Bank.h">
+			<Option target="Banking"/>
+		</Unit>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/Banking/BankAccount.h">
+			<Option target="Banking"/>
+		</Unit>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/Banking/InterestAccount.cpp">
+			<Option target="Banking"/>
+		</Unit>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/Banking/InterestAccount.h">
+			<Option target="Banking"/>
+		</Unit>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/Banking/NonInterestAccount.cpp">
+			<Option target="Banking"/>
+		</Unit>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/Banking/NonInterestAccount.h">
+			<Option target="Banking"/>
+		</Unit>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/Banking/Transaction.cpp">
+			<Option target="Banking"/>
+		</Unit>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/Banking/Transaction.h">
+			<Option target="Banking"/>
+		</Unit>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/Banking/main.cpp">
+			<Option target="Banking"/>
+		</Unit>
+		<Unit filename="/home/ozcanay/Desktop/low_level_system_design/Banking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

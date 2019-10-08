@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Banking" targetName="Banking" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2047a19-474c-4a62-8cf0-c4d2cd67c8ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Bus.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Bus.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Car.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Car.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Minibus.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Minibus.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Motorcycle.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Motorcycle.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/ParkingLot.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/ParkingLot.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/ParkingSpot.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/ParkingSpot.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Truck.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/CMakeFiles/parking_lot.dir/src/Truck.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/parking_lot" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/cmake-build-debug/parking_lot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/include/ParkingLot.h" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/include/ParkingLot.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/include/ParkingSpot.h" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/include/ParkingSpot.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/include/Vehicle.h" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/include/Vehicle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/src/ParkingLot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/src/ParkingLot.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking_lot/src/ParkingSpot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../parking_lot/src/ParkingSpot.cpp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1RuT7k2JP8jR6gxsBlrXYnislDq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Banking" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Banking" TARGET_NAME="Banking" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Banking" RUN_TARGET_NAME="Banking">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2047a19-474c-4a62-8cf0-c4d2cd67c8ab" name="Default Changelist" comment="" />
+      <created>1570515815679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570515815679</updated>
+      <workItem from="1570515821751" duration="2794000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

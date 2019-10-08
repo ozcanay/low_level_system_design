@@ -1,0 +1,3 @@
+/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/CMakeFiles/Banking.dir
+/home/ozcanay/Desktop/low_level_system_design/Banking/cmake-build-debug/CMakeFiles/edit_cache.dir
